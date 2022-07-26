@@ -1,4 +1,4 @@
-package HomeWork.UPTODATE._0725Pack;
+package HomeWork.AllDemo._0725Pack.Pet;
 
 import java.util.Scanner;
 
