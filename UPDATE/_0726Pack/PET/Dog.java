@@ -7,6 +7,11 @@ public class Dog extends Pet {
         System.out.println("DOG CONSTRUCTOR!");
     }
 
+    @Override
+    public void show() {
+
+    }
+
     public Dog(String strain) {
         Strain = strain;
         System.out.println("DOG CONSTRUCTOR WITH PARAMETER!");
@@ -14,7 +19,7 @@ public class Dog extends Pet {
 
     @Override
     public void print() {
-        System.out.println("Name: " + Name + " Health: " + Health + " Love: " + Love + " Strain: " + Strain);
+        System.out.println("Name: " + getName() + " Health: " + getHealth() + " Love: " + getLove() + " Strain: " + getStrain());
 
     }
 
