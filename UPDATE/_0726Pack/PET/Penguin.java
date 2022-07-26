@@ -1,4 +1,4 @@
-package HomeWork.UPDATE._0726Pack;
+package HomeWork.UPDATE._0726Pack.PET;
 
 public class Penguin extends Pet {
     String Sex;

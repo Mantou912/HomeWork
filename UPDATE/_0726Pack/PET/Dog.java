@@ -1,7 +1,16 @@
-package HomeWork.UPDATE._0726Pack;
+package HomeWork.UPDATE._0726Pack.PET;
 
 public class Dog extends Pet {
     String Strain;
+
+    public Dog() {
+        System.out.println("DOG CONSTRUCTOR!");
+    }
+
+    public Dog(String strain) {
+        Strain = strain;
+        System.out.println("DOG CONSTRUCTOR WITH PARAMETER!");
+    }
 
     @Override
     public void print() {
@@ -12,4 +21,5 @@ public class Dog extends Pet {
     public String getStrain() {
         return Strain;
     }
+
 }
