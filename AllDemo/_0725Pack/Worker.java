@@ -8,6 +8,7 @@ public class Worker {
     int Age;        //工人年龄
     double Salary;  //工人工资
     Address addr;
+
     public Worker() {
         System.out.print("请输入工人姓名： ");
         this.Name = scanner.next();
@@ -16,6 +17,14 @@ public class Worker {
         System.out.print("请输入工人工资： ");
         this.Salary = scanner.nextDouble();
         addr = new Address();
+    }
+
+    public Worker(Scanner scanner, String name, int age, double salary, Address addr) {
+        this.scanner = scanner;
+        Name = name;
+        Age = age;
+        Salary = salary;
+        this.addr = addr;
     }
 
     public Worker(String Name, int Age, double Salary) {
