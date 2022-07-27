@@ -6,8 +6,8 @@ public class SavingAccount extends Account {
     Scanner scanner = new Scanner(System.in);
     private double InterestRate;
 
-    public SavingAccount(long id, double balance, String passWord, double interestRate) {
-        super(id, balance, passWord);
+    public SavingAccount(double balance, String passWord, double interestRate) {
+        super(balance, passWord);
         InterestRate = interestRate;
     }
 

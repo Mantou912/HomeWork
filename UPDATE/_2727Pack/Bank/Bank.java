@@ -3,8 +3,8 @@ package HomeWork.UPDATE._2727Pack.Bank;
 public class Bank {
     public Account openAccount(long id, String password, int type) {
         return switch (type) {
-            case 1 -> new SavingAccount(100011, 1512056.05, "Lm815828", 0.04);
-            case 2 -> new CreditAccount(100012, 1564945, "Lm828815", 545645646);
+            case 1 -> new SavingAccount(1512056.05, "Lm815828", 0.04);
+            case 2 -> new CreditAccount(1564945, "Lm828815", 545645646);
             default -> null;
         };
     }

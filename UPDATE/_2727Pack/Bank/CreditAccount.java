@@ -3,8 +3,8 @@ package HomeWork.UPDATE._2727Pack.Bank;
 public class CreditAccount extends Account {
     private double CreditLine;
 
-    public CreditAccount(long id, double balance, String passWord, double creditLine) {
-        super(id, balance, passWord);
+    public CreditAccount(double balance, String passWord, double creditLine) {
+        super(balance, passWord);
         CreditLine = creditLine;
     }
 
