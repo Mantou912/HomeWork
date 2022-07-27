@@ -23,14 +23,17 @@ public class Dog extends Pet {
 
     }
 
+    public String getStrain() {
+        return Strain;
+    }
+
     @Override
     public void Hospital() {
         setHealth(getHealth() + 10);
         System.out.println("狗狗看病");
     }
 
-    public String getStrain() {
-        return Strain;
+    public void catchingFlyDisc() {
+        System.out.println("没抓住");
     }
-
 }

@@ -1,4 +1,4 @@
-package HomeWork.AllDemo._0726Pack.RENT;
+package HomeWork.UPDATE._2727Pack.RENT;
 
 public abstract class MoToVehicle {
     protected String No;
@@ -30,5 +30,13 @@ public abstract class MoToVehicle {
         Miles = miles;
     }
 
-    protected abstract void CalcRent(int days);
+    protected int CalcRent(MoToVehicle[] moToVehicles, int days) {
+        int totalRent = 0;
+        for (MoToVehicle motors : moToVehicles) {
+            totalRent += motors.CalcRent(days);
+        }
+        return totalRent;
+    }
+
+    protected abstract int CalcRent(int days);
 }

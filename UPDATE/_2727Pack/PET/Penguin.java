@@ -22,4 +22,8 @@ public class Penguin extends Pet {
     public String getSex() {
         return Sex;
     }
+
+    public void swimming() {
+        System.out.println("ÑÍËÀÁË");
+    }
 }

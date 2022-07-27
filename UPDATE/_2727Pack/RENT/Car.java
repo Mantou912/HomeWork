@@ -1,4 +1,4 @@
-package HomeWork.AllDemo._0726Pack.RENT;
+package HomeWork.UPDATE._2727Pack.RENT;
 
 final public class Car extends MoToVehicle {
     private String Type;
@@ -27,7 +27,8 @@ final public class Car extends MoToVehicle {
     }
 
     @Override
-    public void CalcRent(int days) {
+    public int CalcRent(int days) {
         System.out.println("\n" + "顾客您好！您需要支付的费用是 " + getRent() * days + " 元");
+        return getRent() * days;
     }
 }

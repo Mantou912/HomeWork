@@ -1,4 +1,4 @@
-package HomeWork.AllDemo._0726Pack.RENT;
+package HomeWork.UPDATE._2727Pack.RENT;
 
 final public class Bus extends MoToVehicle {
     private int SeatCount;
@@ -27,7 +27,8 @@ final public class Bus extends MoToVehicle {
     }
 
     @Override
-    protected void CalcRent(int days) {
+    protected int CalcRent(int days) {
         System.out.println("\n" + "顾客您好！您需要支付的费用是 " + getRent() * days + " 元");
+        return getRent() * days;
     }
 }

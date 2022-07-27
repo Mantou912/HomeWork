@@ -1,4 +1,4 @@
-package HomeWork.AllDemo._0726Pack.RENT;
+package HomeWork.UPDATE._2727Pack.RENT;
 
 
 import java.util.Scanner;
@@ -12,6 +12,13 @@ public class TestMain {
         Car BMW = new Car("京AH8585", "BMW", "RED", 2500, "550i", 500);
         Bus GoldCup = new Bus("京AS5455", "金杯", "WHITE", 5200, 16, 800);
         Bus GoldGragon = new Bus("京BS6542", "金龙", "BLUE", 10000, 16, 800);
+
+        MoToVehicle[] moToVehicles = new MoToVehicle[5];
+        moToVehicles[0] = new Car("京BK5543", "BUCK", "BLACK", 1000, "商务舱GL8", 600);
+        moToVehicles[1] = new Car("沪AK5678", "BUCK", "WHITE", 1500, "林荫大道", 300);
+        moToVehicles[2] = new Car("京AH8585", "BMW", "RED", 2500, "550i", 500);
+        moToVehicles[3] = new Bus("京AS5455", "金杯", "WHITE", 5200, 16, 800);
+        moToVehicles[4] = new Bus("京BS6542", "金龙", "BLUE", 10000, 16, 800);
 
         System.out.println("欢迎您来到汽车租赁公司！");
         System.out.print("请输入要租赁的天数: ");
