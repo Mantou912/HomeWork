@@ -1,4 +1,4 @@
-package HomeWork.AllDemo._0726Pack.PET;
+package HomeWork.UPDATE._2727Pack.PET;
 
 public class Penguin extends Pet {
     String Sex;
@@ -11,6 +11,12 @@ public class Penguin extends Pet {
     public void print() {
         System.out.println("Name: " + getName() + " Health: " + getHealth() + " Love: " + getLove() + " Sex: " + getSex());
 
+    }
+
+    @Override
+    public void Hospital() {
+        setHealth(getHealth() + 10);
+        System.out.println("Æó¶ì¿´²¡");
     }
 
     public String getSex() {

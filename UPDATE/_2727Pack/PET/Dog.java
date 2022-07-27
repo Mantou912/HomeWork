@@ -1,4 +1,4 @@
-package HomeWork.AllDemo._0726Pack.PET;
+package HomeWork.UPDATE._2727Pack.PET;
 
 public class Dog extends Pet {
     String Strain;
@@ -21,6 +21,12 @@ public class Dog extends Pet {
     public void print() {
         System.out.println("Name: " + getName() + " Health: " + getHealth() + " Love: " + getLove() + " Strain: " + getStrain());
 
+    }
+
+    @Override
+    public void Hospital() {
+        setHealth(getHealth() + 10);
+        System.out.println("¹·¹·¿´²¡");
     }
 
     public String getStrain() {

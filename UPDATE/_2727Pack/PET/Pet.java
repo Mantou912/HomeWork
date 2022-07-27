@@ -1,4 +1,4 @@
-package HomeWork.AllDemo._0726Pack.PET;
+package HomeWork.UPDATE._2727Pack.PET;
 
 public abstract class Pet {
     //私有化的内容是不能被继承的
@@ -48,5 +48,7 @@ public abstract class Pet {
     public abstract void show();
 
     public abstract void print();
+
+    public abstract void Hospital();
 
 }
