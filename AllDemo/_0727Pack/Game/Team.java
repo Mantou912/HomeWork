@@ -17,7 +17,6 @@ public class Team {
         return AttackSum;
     }
 
-
     public void addMember(Role role) {
         if (Number < 6) {
             if (role instanceof Magician magician) {
@@ -30,3 +29,4 @@ public class Team {
         }
     }
 }
+

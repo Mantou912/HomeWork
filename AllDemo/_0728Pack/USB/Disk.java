@@ -1,4 +1,4 @@
-package HomeWork.UPDATE._0728Pack;
+package HomeWork.AllDemo._0728Pack.USB;
 
 public class Disk implements USB {
 
